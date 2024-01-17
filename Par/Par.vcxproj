@@ -139,13 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="D:\Projects\Parallel\laba1.cpp" />
-    <ClCompile Include="D:\Projects\Parallel\laba2.cpp" />
-    <ClCompile Include="D:\Projects\Parallel\barrier.cpp" />
-    <ClCompile Include="D:\Projects\Parallel\lib.cpp" />
+    <ClCompile Include="laba1.cpp" />
+    <ClCompile Include="laba2.cpp" />
+    <ClCompile Include="barrier.cpp" />
+    <ClCompile Include="lib.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Projects\Parallel\barrier.hpp" />
+    <ClInclude Include="barrier.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
