@@ -335,7 +335,7 @@ double average_cpp_reduce(const double *v, size_t n)
 //    for (size_t i = 0; i < N; ++i)
 //        buf[i] = i;
 //
-//    const char *p = "%s,%u,%f,%f,%f\n";
+//    const char *p = "%s,%u,%f,%f,%f,%f\n";
 //
 //    std::vector<profiling_results_t> res;
 //
@@ -358,7 +358,7 @@ double average_cpp_reduce(const double *v, size_t n)
 //        res = run_experiment(f.second, buf.get(), N);
 //        for (auto &i : res)
 //        {
-//            fprintf(file, p, f.first, i.T, i.result, i.speedup, i.efficiency);
+//            fprintf(file, p, f.first, i.T, i.result, i.speedup, i.efficiency, i.time);
 //        }
 //    }
 //    fclose(file);

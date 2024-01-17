@@ -173,7 +173,7 @@ auto run_experiment(size_t n)
 int main()
 {
     size_t n = 1u << 25;
-    const char *p = "%u,%u,%f,%f\n";
+    const char *p = "%u,%u,%f,%f,%f\n";
 
     auto res = run_experiment(n);
 
@@ -181,7 +181,7 @@ int main()
 
     for (auto &i : res)
     {
-        fprintf(file, p, i.T, i.result, i.speedup, i.efficiency);
+        fprintf(file, p, i.T, i.result, i.speedup, i.efficiency, i.time);
     }
 
     fclose(file);
